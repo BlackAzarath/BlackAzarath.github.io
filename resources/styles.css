@@ -1,39 +1,35 @@
 *{
     color:white;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
 }
 html{
-    background-color: rgb(52,0,128);
+    background-color: black;
 }
 li{
-    border:cadetblue 5px outset;
-    background-color: cadetblue;
-    border-radius: 8px;
-    height: 5px;
-    padding-bottom: 5px;
-    padding-top:0%;
+    height:30px;
+    border-radius:8px;
+    padding-bottom:5px;
 }
 li a{
     color:white;
+    height:30px;
+    text-size-adjust:inherit;
+    padding-bottom:5px;
     padding: 0px 6px;
     text-decoration:none;
-    float: left;
-    height: auto;
-    padding-top:0%;
 }
 li a:hover{
-    background-color: rgb(36, 0, 90);
-    border:rgb(36, 0, 90) 5px outset;
-    border-radius: 10px;
+    background-color:rgb(129, 40, 95);
+    height:15px;
+    border:rgb(129, 40, 95) 5px outset;
 }
 .lineO{
-    border-radius: 5px;
-    text-align:left; 
-    min-width:95px; 
+    text-align:left;  
     min-height:auto; 
     max-height:30px;
+    margin:0px;
 }
 h1{
     margin: 2px; 
@@ -53,30 +49,31 @@ li{
 header{
     height:40px;
     max-height: auto;
-    background-image:linear-gradient(to right,rgb(128,0,128),black);
+    background-image:linear-gradient(to right,teal,rgb(129, 40, 95));
     width:fill;
 }
 body{
     text-align:left;
 }
 .right{
-    background-color:cadetblue;
+    background-color:teal;
     float:right;
-    display: block;
-    border:cadetblue 5px outset;
+    display:block;
+    border:teal 5px outset;
     border-radius: 10px;
     width: 250px;
 }
 .left{
-    border:rgb(83,0,128) 5px outset;
+    border:teal 5px outset;
     min-width:15%;
-    max-width: 95% ;
-    border-radius: 10px;
-    background-color: rgb(83,0,128);
+    width:auto;
+    margin-right:2px;
+    border-radius: 8px;
+    background-color: teal;
     margin-top:5px;
+    
 }
 article{
-    height:fit-content;
     padding-left: 5px;
     
 }
